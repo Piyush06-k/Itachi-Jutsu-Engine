@@ -32,3 +32,6 @@ The particle engine transitions smoothly between four distinct chakra states usi
 * **Google MediaPipe :** Runs low-latency AI tracking to detect hand landmarks from your webcam.
 * **Vanilla HTML5 / CSS3 :** Manages the interface layout, overlay panels, and responsive styling.
 
+# If you love this project, make sure you give it a star!
+
+
