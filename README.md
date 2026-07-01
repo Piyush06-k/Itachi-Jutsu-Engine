@@ -16,8 +16,7 @@ The Itachi Jutsu Engine uses the power of modern web technologies to bring anime
 
 
 ## 🎛️ Jutsu Deck & Technical Specifications
-
-The particle engine transitions smoothly between five distinct chakra states using custom mathematical coordinate mappings calculated on the fly:
+The particle engine transitions smoothly between four distinct chakra states using custom mathematical coordinate mappings calculated on the fly:
 
 | # | Technique Name | Visual Behavior & Particle Dynamics | Mathematical Blueprint | Hand Seal Trigger |
 | :--- | :--- | :--- | :--- | :--- |
@@ -27,6 +26,9 @@ The particle engine transitions smoothly between five distinct chakra states usi
 | **4** | **Mangekyō Sharingan Activated** | Itachi’s signature three-bladed ocular pinwheel. Features a pitch-black pupil core and a heavy outer bounding ring. | Logarithmic spiral segment progression formulas ($r = a \cdot e^{b\theta}$) rotating rapidly on a fixed flat 2D plane. | **Akatsuki Pose** (Thumb and index finger pinched closely together). |
 
 
+##  Minimal Tech Stack
 
-
+* **Three.js :** Renders the 25,000 active particles and cinematic bloom effects via WebGL.
+* **Google MediaPipe :** Runs low-latency AI tracking to detect hand landmarks from your webcam.
+* **Vanilla HTML5 / CSS3 :** Manages the interface layout, overlay panels, and responsive styling.
 
